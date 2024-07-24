@@ -4,6 +4,17 @@
 
 ## User settings
 xcuserdata/
+# Xcode specifics
+.DS_Store
+*.swp
+*.lock
+*.xcuserstate
+*.xcuserdata
+*.xcscmblueprint
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.playground*
 
 ## Obj-C/Swift specific
 *.hmap
