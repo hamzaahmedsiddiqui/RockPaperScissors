@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E14DFA02C51D682008C3797 /* SelectedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E14DF9F2C51D682008C3797 /* SelectedCardView.swift */; };
 		7EE1CB6B2C4A781D004029C5 /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1CB6A2C4A781D004029C5 /* RockPaperScissorsApp.swift */; };
 		7EE1CB6D2C4A781D004029C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1CB6C2C4A781D004029C5 /* ContentView.swift */; };
 		7EE1CB6F2C4A781E004029C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1CB6E2C4A781E004029C5 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E14DF9F2C51D682008C3797 /* SelectedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCardView.swift; sourceTree = "<group>"; };
 		7EE1CB672C4A781D004029C5 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE1CB6A2C4A781D004029C5 /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
 		7EE1CB6C2C4A781D004029C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				7EE1CB6A2C4A781D004029C5 /* RockPaperScissorsApp.swift */,
 				7EE1CB6C2C4A781D004029C5 /* ContentView.swift */,
+				7E14DF9F2C51D682008C3797 /* SelectedCardView.swift */,
 				7EE1CB6E2C4A781E004029C5 /* Assets.xcassets */,
 				7EE1CB702C4A781E004029C5 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				7EE1CB6D2C4A781D004029C5 /* ContentView.swift in Sources */,
 				7EE1CB6B2C4A781D004029C5 /* RockPaperScissorsApp.swift in Sources */,
+				7E14DFA02C51D682008C3797 /* SelectedCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
