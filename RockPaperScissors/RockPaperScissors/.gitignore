@@ -11,3 +11,5 @@
 */xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserstate
 ../../SSH key
 ../../SSH key.pub
+~/.ssh/id_rsa
+~/.ssh/id_rsa.pub
