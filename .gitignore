@@ -1,32 +1,55 @@
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## User settings
-xcuserdata/
-# Xcode specifics
-.DS_Store
-*.swp
-*.lock
+# User-specific files
 *.xcuserstate
-*.xcuserdata
-*.xcscmblueprint
+*.xcuserdata/
+
+# Build products
+build/
 DerivedData/
-*.moved-aside
-*.xccheckout
-*.playground*
-
-## Obj-C/Swift specific
-*.hmap
-
-## App packaging
 *.ipa
 *.dSYM.zip
 *.dSYM
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+# Intermediate Build files
+*.lo
+*.la
+*.lai
+*.o
+*.gch
+*.pch
+*.pid
+*.gcno
+*.gcda
+*.so
+*.a
+*.dylib
+
+# Xcode automatically generated project files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Xcode schemes
+xcshareddata/xcschemes/*
+
+# App packaging
+*.xcent
+*.plist
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
 
 # Swift Package Manager
 #
@@ -34,40 +57,57 @@ playground.xcworkspace
 # Packages/
 # Package.pins
 # Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
 .build/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+# SwiftPM binary artifacts
+*.xcframework
 
-Carthage/Build/
+# SwiftPM build folder
+.swiftpm/xcode/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# Various settings
+*.xcworkspacedata
+*.xccheckout
+*.xcscmblueprint
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# IDE Workspace Layout
+# Breakpoints and Indexes
+*.xcscmblueprint/
+*.xcuserstate/
+*.moved-aside/
+*.ideworkspace/
+
+# Device data
+*.devices
+*.deviceids
+*.device
+
+# OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+.TemporaryItems
+.Trashes
+
+# Hidden files
+.Spotlight-V100
+.DocumentRevisions-V100
+
+# Files that might appear on external disk drives
+.VolumeIcon.icns
+.fseventsd
+.fseventsd-noindex
+.fseventsd-uuid
+.com.apple.timemachine.donotpresent
+
+# Files that might appear on network shares
+.apdisk
